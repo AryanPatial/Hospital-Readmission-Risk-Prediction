@@ -1,0 +1,78 @@
+{
+  "runs": [
+    {
+      "split": "by_patient",
+      "seed": 1,
+      "auc": 0.6805,
+      "shared_patients": 0
+    },
+    {
+      "split": "by_patient",
+      "seed": 2,
+      "auc": 0.6732,
+      "shared_patients": 0
+    },
+    {
+      "split": "by_patient",
+      "seed": 3,
+      "auc": 0.6741,
+      "shared_patients": 0
+    },
+    {
+      "split": "by_patient",
+      "seed": 4,
+      "auc": 0.6723,
+      "shared_patients": 0
+    },
+    {
+      "split": "by_patient",
+      "seed": 5,
+      "auc": 0.666,
+      "shared_patients": 0
+    },
+    {
+      "split": "by_stay",
+      "seed": 1,
+      "auc": 0.6763,
+      "shared_patients": 4928
+    },
+    {
+      "split": "by_stay",
+      "seed": 2,
+      "auc": 0.6816,
+      "shared_patients": 4958
+    },
+    {
+      "split": "by_stay",
+      "seed": 3,
+      "auc": 0.6622,
+      "shared_patients": 4950
+    },
+    {
+      "split": "by_stay",
+      "seed": 4,
+      "auc": 0.675,
+      "shared_patients": 4861
+    },
+    {
+      "split": "by_stay",
+      "seed": 5,
+      "auc": 0.6717,
+      "shared_patients": 4922
+    }
+  ],
+  "summary": [
+    {
+      "split": "by_patient",
+      "auc_mean": 0.6732,
+      "auc_sd": 0.0052,
+      "shared_patients_mean": 0.0
+    },
+    {
+      "split": "by_stay",
+      "auc_mean": 0.6734,
+      "auc_sd": 0.0072,
+      "shared_patients_mean": 4923.8
+    }
+  ]
+}

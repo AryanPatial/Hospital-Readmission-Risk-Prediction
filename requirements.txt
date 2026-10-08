@@ -1,0 +1,15 @@
+boto3==1.43.109
+duckdb==1.5.6
+lightgbm==4.7.0
+matplotlib==3.11.2
+mlflow==3.17.0
+moto[all]==5.2.3
+numpy==2.4.6
+onnxmltools==1.16.0
+onnxruntime==1.30.0
+pandas==3.0.6
+pyarrow==25.0.1
+pytest==9.1.1
+scikit-learn==1.9.1
+shap==0.51.0
+skl2onnx==1.20.0

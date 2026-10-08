@@ -1,0 +1,19 @@
+{
+  "raw_stays": 101766,
+  "stays_after_exclusions": 99340,
+  "excluded_died_hospice_or_bad_gender": 2426,
+  "patients": 69987,
+  "patients_with_repeat_stays": 16341,
+  "readmit_30d_rate": 0.1139,
+  "split_sizes": {
+    "train": 69673,
+    "test": 14859,
+    "valid": 14808
+  },
+  "split_readmit_rate": {
+    "test": 0.1137,
+    "train": 0.1137,
+    "valid": 0.1151
+  },
+  "patients_in_more_than_one_split": 0
+}

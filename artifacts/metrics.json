@@ -1,0 +1,42 @@
+{
+  "rule_prior_inpatient": {
+    "test_roc_auc": 0.6039,
+    "test_pr_auc": 0.168,
+    "base_rate": 0.1137,
+    "threshold": 1.0,
+    "test_flag_rate": 0.3304,
+    "test_recall_at_top20": 0.4932,
+    "test_precision_at_top20": 0.1697
+  },
+  "logistic_regression": {
+    "test_roc_auc": 0.6522,
+    "test_pr_auc": 0.1992,
+    "base_rate": 0.1137,
+    "threshold": 0.1402,
+    "test_flag_rate": 0.1977,
+    "test_recall_at_top20": 0.3618,
+    "test_precision_at_top20": 0.208,
+    "test_brier": 0.0976
+  },
+  "lightgbm": {
+    "test_roc_auc": 0.6651,
+    "test_pr_auc": 0.2161,
+    "base_rate": 0.1137,
+    "threshold": 0.1521,
+    "test_flag_rate": 0.1993,
+    "test_recall_at_top20": 0.386,
+    "test_precision_at_top20": 0.2201,
+    "test_brier": 0.0965
+  },
+  "lightgbm_random_split": {
+    "test_roc_auc": 0.6599,
+    "test_pr_auc": 0.2165,
+    "base_rate": 0.1124,
+    "threshold": 0.1562,
+    "test_flag_rate": 0.2014,
+    "test_recall_at_top20": 0.3826,
+    "test_precision_at_top20": 0.2136,
+    "test_brier": 0.0956,
+    "test_patients_also_in_train": 4988
+  }
+}

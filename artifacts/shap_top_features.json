@@ -1,0 +1,17 @@
+{
+  "prior_inpatient": 0.2989,
+  "discharge_to=home": 0.1632,
+  "age_years": 0.06,
+  "number_diagnoses": 0.0547,
+  "time_in_hospital": 0.0521,
+  "discharge_to=other_inpatient": 0.0502,
+  "primary_diagnosis=circulatory": 0.0492,
+  "primary_diagnosis=respiratory": 0.049,
+  "num_lab_procedures": 0.0404,
+  "on_diabetes_meds": 0.0373,
+  "num_medications": 0.0353,
+  "prior_emergency": 0.0313,
+  "insulin=Down": 0.027,
+  "discharge_to=nursing_facility": 0.0264,
+  "num_procedures": 0.0263
+}

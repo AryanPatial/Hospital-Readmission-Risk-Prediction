@@ -1,0 +1,11 @@
+.venv/
+data/raw/
+data/processed/*.parquet
+lambda/build/
+mlflow.db
+mlruns/
+artifacts/model.onnx
+aws/state*.json
+__pycache__/
+.DS_Store
+.pytest_cache/
